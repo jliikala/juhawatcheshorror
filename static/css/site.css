@@ -1,0 +1,157 @@
+@font-face {
+  font-family: 'Herbik Regular';
+  src: url('../fonts/HerbikUnlicensedTrial-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  font-family: "Herbik Regular", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, "Times New Roman", Times, serif;
+  background: rgb(0, 1, 2);
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  color: #c4c4c4;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body {
+  max-width: 650px;
+  width: 100%;
+  padding: 24px;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2.25rem; /* 36px */
+}
+
+h2 {
+  font-size: 1.8rem; /* 28.8px */
+}
+
+h3 {
+  font-size: 1.5rem; /* 24px */
+}
+
+h4 {
+  font-size: 1.25rem; /* 20px */
+}
+
+p {
+  font-size: 1rem; /* 16px */
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 18px; /* Increase font size for tablets */
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 20px; /* Increase font size for desktops */
+  }
+}
+
+p, li {
+  margin-top: 8px;
+  line-height: 140%;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: #eaeaea;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+section, .section {
+  margin-bottom: 48px;
+  display: block;
+}
+
+.blog-title {
+  font-size: 20px;
+}
+
+.blog-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 80px;
+}
+
+.blog-header a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+}
+
+.blog-header img {
+  width: 80px;
+  filter: grayscale(100%);
+  border-radius: 100%;
+}
+
+.blog-lead p {
+  margin-top: 2px;
+}
+
+.upper, .dt-published {
+  font-family: "JetBrains Mono Regular", "SFMono-Regular", Menlo, Monaco, "Courier New", Courier, monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0;
+  color: rgba(255, 246, 239, 0.4);
+  font-size: 12px;
+}
+
+h2.upper {
+  margin: 0;
+}
+
+ul.posts a {
+  text-decoration: none;
+}
+
+ul.subscribe-options {
+  display: flex;
+  gap: 5px;
+  margin: 0;
+}
+
+textarea, input[type="email"] {
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="email"] {
+  width: 60%;
+  max-width: 300px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  background-color: #313131;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
