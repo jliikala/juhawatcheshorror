@@ -100,7 +100,6 @@ section, .section {
 
 .blog-header img {
   width: 80px;
-  filter: grayscale(100%);
   border-radius: 100%;
 }
 
