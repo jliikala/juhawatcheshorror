@@ -1,7 +1,7 @@
 # Social media preview images for posts.
 # Enter the post slug and the url of the preview image and it works.
 
-salemslot:
+salems-lot:
   image: "/images/covers/salemslot.jpg"
 
 post-slug-2:
