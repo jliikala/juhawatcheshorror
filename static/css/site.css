@@ -171,3 +171,10 @@ input[type="submit"] {
 .microblog_avatar {
   border-radius: 100%;
 }
+
+a[href*="letterboxd.com"]:before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f3d1";
+  margin-right: 8px;
+}
