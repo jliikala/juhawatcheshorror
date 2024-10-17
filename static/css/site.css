@@ -175,6 +175,6 @@ input[type="submit"] {
 a[href*="letterboxd.com"]:before {
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  content: "\f3d1";
+  content: "\e62d";
   margin-right: 8px;
 }
