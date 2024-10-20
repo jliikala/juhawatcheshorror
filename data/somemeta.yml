@@ -4,8 +4,8 @@
 salems-lot:
   image: "/images/covers/salemslot.jpg"
 
-post-slug-2:
-  image: "/images/covers/cover2.jpg"
+alien-romulus:
+  image: "/images/covers/alienromulus.jpg"
 
 post-slug-3:
   image: "/images/covers/cover3.jpg"
