@@ -173,14 +173,14 @@ input[type="submit"] {
 }
 
 a[href*="letterboxd.com"]:before {
-  font-family: "Font Awesome 6 Free";
+  font-family: "Font Awesome 6 Brands";
   font-weight: 900;
   content: "\e62d";
   margin-right: 8px;
 }
 
 a[href*="imdb.com"]:before {
-  font-family: "Font Awesome 6 Free";
+  font-family: "Font Awesome 6 Brands";
   font-weight: 900;
   content: "\f2d8";
   margin-right: 8px;
